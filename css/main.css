@@ -329,7 +329,28 @@ nav ul li a:hover {
 .compaign-item-left {
   width: 50%;
 }
-
+.compaign-item-left-goal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid red;
+  padding: 20px 20px 20px 20px;
+}
+.compaign-item-left-goal-goal {
+  border-right: 1px solid red;
+ padding-right: 30px;
+}
+.compaign-item-left-goal-goal span {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #4D4D4D;
+}
+.compaign-item-left-goal-goal p {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    color: #EC5C81;
+}
 
 
 
