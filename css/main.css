@@ -51,6 +51,11 @@ img {
   align-items: center;
   justify-content: center;
 }
+.button:hover {
+  background: linear-gradient(to right, rgba(245, 139, 158, 1), rgba(210, 99, 200, 1));
+}
+
+
 .container {
   width: 1110px;
   margin: 0 auto;
@@ -180,6 +185,9 @@ nav ul li a:hover {
   background-color: #fff;
   background-clip: padding-box;
 }
+.together-right:hover{
+  border: 8px solid #f4627c;
+}
 .together-right-triangle {
   border: 15px solid transparent;
   border-left: 20px solid #BF3FA2;
@@ -304,7 +312,7 @@ nav ul li a:hover {
 }
 .compaign-title span {
   font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-size: 24px;
   color: #707070;
   position: relative;
   display: block;
@@ -528,4 +536,85 @@ nav ul li a:hover {
   color: #fff;
   margin-top: 52px;
 
+}
+.want-content {
+  margin-top: 130px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.want-content-left {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
+.want-content-left__text {
+  margin-top: 34px;
+  font-size: 16px;
+}
+.want-content-right__img {
+
+}
+.want-content-right__img img {
+  width: 569px;
+  height: 430px;
+}
+.want-content-left__form {
+  margin-top: 58px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  position: relative;
+}
+.want-content-left__form-email {
+  border: 2px solid #F5F5F5;
+  border-radius: 10px 0 0 10px;
+  width: 100%;
+  height: 60px;
+}
+.want-content-left__form-button {
+  width: 138px;
+  height: 60px;
+  border: none;
+  border-radius: 10px;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  font-size: 16px;
+
+}
+.want-content-left__form-email::placeholder {
+  padding: 20px;
+  font-size: 14px;
+}
+.reviews {
+  background-image: url(../img/bg-reviews.svg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  position: relative;
+  height: 500px;
+}
+.reviews:before {
+  content: "";
+  display: block;
+  position: absolute;
+    background-image: url(../img/baby-boy.svg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: top center;
+  top: 50px;
+  left: 50px;
 }
